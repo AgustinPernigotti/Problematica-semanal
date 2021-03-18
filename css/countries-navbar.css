@@ -1,0 +1,31 @@
+/* Stylesheet for countries navbar  */
+
+.countries_navbar_main{
+    border-bottom: 1px solid #b4b4b4;
+}
+
+.countries_navbar_main>ul{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    
+}
+
+.countries_navbar_main>ul>li>a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+.countries_navbar_main>ul>li>a:visited{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+.countries_navbar_main>ul>li>a:hover{
+    font-weight: bold;
+    text-decoration: none;
+    color: #797878;
+}

@@ -1,0 +1,38 @@
+/* Stylesheet for countries navbar  */
+
+.infobae_navbar_main{
+    width: 923.281;
+    height: 162;
+}
+
+.infobae_navbar_main nav div h1{
+    text-align: center;
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+/* First List */
+
+.infobae_first_list>ul{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.infobae_first_list>ul>li{
+    text-decoration: none;
+    color: #000000;
+}
+
+.infobae_first_list>ul>li>a:visited{
+    text-decoration: none;
+    color: #000000;
+}
+
+.infobae_first_list>ul>li>a:hover{
+    text-decoration: none;
+    color: #797878;
+}
